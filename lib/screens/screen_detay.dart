@@ -67,7 +67,7 @@ class _ScreenDetayPagesState extends State<ScreenDetayPages> {
                   ),
                 ),
                 Positioned(
-                  top: 340,
+                  top: MediaQuery.of(context).size.height/2.40,
                   child: Container(
                     height: 700,
                     width: MediaQuery.of(context).size.width,
